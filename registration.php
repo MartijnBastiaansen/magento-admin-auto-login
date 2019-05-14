@@ -1,6 +1,11 @@
 <?php
-\Magento\Framework\Component\ComponentRegistrar::register(
-    \Magento\Framework\Component\ComponentRegistrar::MODULE,
+
+use Magento\Framework\Component\ComponentRegistrar;
+
+require __DIR__ . '/vendor/autoload.php';
+
+ComponentRegistrar::register(
+    ComponentRegistrar::MODULE,
     'Onlinepets_AutoLoginAdmin',
     __DIR__
 );
