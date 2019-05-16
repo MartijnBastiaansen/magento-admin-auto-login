@@ -1,0 +1,9 @@
+{
+    "require-dev": {
+        "phpro/grumphp": "^0.15.0"
+    },
+    "require": {
+        "ext-json": "*",
+        "nesbot/carbon": "^2.17"
+    }
+}
