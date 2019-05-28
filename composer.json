@@ -14,7 +14,7 @@
         "map": [
             [
                 "*",
-                "Onlinepets/BackendUserApi"
+                "Onlinepets/AutoLoginAdmin"
             ]
         ]
     },
