@@ -1,9 +1,28 @@
 {
+    "name": "onlinepets/magento2-admin-auto-login",
+    "description": "Auto login function for magento2 admin",
     "require-dev": {
         "phpro/grumphp": "^0.15.0"
     },
     "require": {
         "ext-json": "*",
         "nesbot/carbon": "^2.17"
-    }
+    },
+    "type": "magento2-module",
+    "version": "0.0.1",
+    "extra": {
+        "map": [
+            [
+                "*",
+                "Onlinepets/BackendUserApi"
+            ]
+        ]
+    },
+    "authors": [
+        {
+            "name": "Martijn Bastiaansen",
+            "homepage": "https://www.medpets.nl/",
+            "role": "Lead developer"
+        }
+    ]
 }
