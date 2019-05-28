@@ -3,7 +3,7 @@
 namespace Onlinepets\AutoLoginAdmin\Http\Requests;
 
 use Magento\Framework\Webapi\Exception;
-use Onlinepets\BackendUserApi\Validator\Validator;
+use Onlinepets\AutoLoginAdmin\Validator\Validator;
 
 abstract class Request
 {
@@ -109,7 +109,7 @@ abstract class Request
     /**
      * @param $rules
      *
-     * @return \Onlinepets\BackendUserApi\Http\Requests\Request
+     * @return \Onlinepets\AutoLoginAdmin\Http\Requests\Request
      */
     protected function setRules($rules): self
     {
